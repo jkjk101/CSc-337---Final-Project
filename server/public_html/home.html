@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <link id="cssFile" rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+    <div id="search-bar">
+      <img id="my-profile-picture" alt="My Profile Picture">
+      
+      <input type="text" id="keyword" name="keyword">
+      <button id="search-btn">Search</button>
+
+      <input type="radio" id="profile" name="type" value="profile" checked>
+      <label for="profile">Profile</label>
+      <input type="radio" id="project" name="type" value="project">
+      <label for="project">Project</label>
+
+      <button id="logout-btn">Logout</button>
+      
+      <button id="help-btn">Help</button>
+    </div>
+
+    <div id="contents">
+      <img id="profile-picture" alt="Profile Picture">
+      <h2>Name</h2>
+      <p>Email: email@example.com</p>
+      <p>Phone: 123-456-7890</p>
+      <p>Bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <button id="new-proj-btn">New Project</button>
+    </div>
+    <script src="client.js"></script>
+  </body>
+</html>
